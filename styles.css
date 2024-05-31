@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  min-height: 100vh;
+  letter-spacing: 0.5px;
+  color: #2e2e2e;
+  line-height: 1.5;
+  font-family: "Rubik", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+a,
+p, label, select, h3, input, button  {
+  font-family: Rubik, sans-serif;
+  font-size: 0.6875rem;
+  line-height: 1.275;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  color: #2e2e2e;
+  vertical-align: middle;
+}
+h3 {
+  font-weight: 600;
+  text-align: center;
+}
+html {
+  color-scheme: dark light;
+  scroll-behavior: smooth;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+.free-shipping-bar {
+  text-align: center;
+  background-color: #F8F0A4;
+  padding: 0.5rem 1.5rem;
+}
+.free-shipping-bar a {
+  color: #2e2e2e;
+  text-decoration: none;
+}
+.first-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 2.5rem;
+  align-items: center;
+}
+.first-navbar-container * {
+    padding: .3rem;
+}
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.center {
+  justify-content: center;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+ul {
+  gap: 1rem;
+  margin-left: 1rem;
+}
+.logo {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.select-country-label {
+    margin-top: 0.4rem;
+}
+.second-navbar-container {
+  align-items: center;
+  padding: 0.5rem 2.5rem;
+  border-top: 1px solid #d8d8d8;
+}
+.sale-link {
+    color: #b12233;
+}
+select {
+    padding: 0 1.5rem;
+    margin-top: 0.3rem;
+}
+option {
+    padding: 0 1.5rem;
+}
+.picture-fillers {
+  height: 500px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.image-fullers {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5rem 1.5rem;
+}
+footer {
+  background-color:#F8F0A4;
+  padding: 1.5rem;
+  justify-content: center;
+  gap: 1rem;
+}
+footer * {
+  padding: 0  1rem;
+}
+.email-input {
+  flex-grow: 1;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  height: 2.5rem;
+  color: #2e2e2e;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.join-btn {
+  background: transparent;
+  border: none;
+  color: #2e2e2e;
+  margin-top: 1rem;
+}
+.info-heading {
+  margin-right: 5rem;
+}
+.newslater-heading {
+  margin-right: 25rem;
+  margin-bottom: .75rem;
+}
+.best-sellers-section {
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+  align-items: flex-start;
+  font-size: 5rem;
+  margin-left: 1rem;
+}
+.best-seller-image-container img {
+  height: 500px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.75rem;
+}
+.best-sellers-text {
+  font-size: 1.2rem;
+}
+.prices-text {
+  font-size: 1rem;
+  padding: 0.1rem 0;
+  margin-top: 0.5rem;
+}
